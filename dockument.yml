@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: batch10-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: batch10
+  template:
+    metadata:
+      labels:
+        app: batch10
+    spec:
+      containers:
+        - name: batch10-container
+          image: nginx:latest
+          ports:
+            - containerPort: 80
