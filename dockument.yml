@@ -22,3 +22,7 @@ spec:
               value: production
               name: API_URL
               value:https://api.projectai.com
+              value: fornted
+              password: 1321
+              name: db user
+              value: user
