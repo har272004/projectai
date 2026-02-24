@@ -21,6 +21,8 @@ spec:
               name: environment
               value: production
               name: API_URL
-              value:https://user:password@db2176/project-ai-db
-              name: LOG_LEVEL
-              value: info
+              value:https://api.projectai.com
+              value: fornted
+              password: 1321
+              name: db user
+              value: user
